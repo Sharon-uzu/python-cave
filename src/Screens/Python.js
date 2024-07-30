@@ -13,6 +13,7 @@ import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import {IoMdMegaphone} from 'react-icons/io'
 import image from '../assets/Web banner.jpg'
+import image2 from '../assets/Web banner phone.jpg'
 
 
 const Python = () => {
@@ -60,7 +61,8 @@ const Python = () => {
 <Header/>
 
         <div className="hero pyt">
-        <img src={image} alt="" />
+        <img src={image} alt="" id='img1'/>
+        <img src={image2} alt="" id='img2'/>
         </div>
 
         <div className="rate">

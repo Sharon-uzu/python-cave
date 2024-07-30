@@ -1236,6 +1236,9 @@ footer .footer .foot2 li a{
   height: 100%;
   /* object-fit: cover; */
 }
+.pyt #img2{
+  display: none;
+}
 .pyt .hero-c h2{
   font-size: 80px;
   /* line-height: 80px; */
@@ -1677,6 +1680,14 @@ footer .footer .foot2 li a{
     height: 60vh;
   } */
 
+  .pyt #img2{
+    width: 100%;
+    display: block;
+  }
+  .pyt #img1{
+    display: none;
+  }
+
   .rate{
     width: 95%;
     flex-wrap: wrap;
@@ -1949,7 +1960,7 @@ footer .footer .foot2{
 
 @media screen and (max-width: 320px) {
   .pyt{
-    height: 190px;
+    height: 250px;
   }
   .rate{
     margin-top: -20px;

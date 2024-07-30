@@ -313,6 +313,11 @@ const Home = () => {
             <h3>15th November, 2024</h3>
           </div>
 
+          <div className="edition">
+            <h2>Broadcasting on TV, YouTube and Social Media</h2>
+            <h3>1st January, 2025</h3>
+          </div>
+
         </div>
         {/* <Sponsors/> */}
 
