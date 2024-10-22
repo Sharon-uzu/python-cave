@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
   padding: 0;
   margin: 0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 100; */
+  font-style: normal;
 }
 
 header{
@@ -1224,10 +1232,13 @@ footer .footer .foot2 li a{
 
 /* MEET THE PYTHONS */
 .pyt{
-  background-image: url(assets/Web\ banner.jpg);
+  /* background-image: url(assets/Web\ banner.jpg); */
   background-image: none;
-  background-position: center;
-  height: 650px;
+  background-position: unset;
+  height: 600px;
+  background-size: unset;
+
+  
 
 }
 
@@ -1236,7 +1247,11 @@ footer .footer .foot2 li a{
   height: 100%;
   /* object-fit: cover; */
 }
+.pyt #img1{
+  width: 100%;
+}
 .pyt #img2{
+  width: 100%;
   display: none;
 }
 .pyt .hero-c h2{
@@ -1630,7 +1645,7 @@ footer .footer .foot2 li a{
     display: none;
   }
   .why .w-l .ww h3{
-    font-size: 45px;
+    font-size: 40px;
   }
   .python-cave .python-s .python{
     width: 32%;
@@ -1638,6 +1653,16 @@ footer .footer .foot2 li a{
   .modal1 .modal1-content{
     width: 90%;
   }
+  footer .footer .foot2{
+    width: 24%;
+  }
+  footer .footer .foot2a{
+    width: 20%;
+  }
+  footer .footer .foot2 li a{
+    font-size: 15px;
+  }
+  
 }
 
 @media screen and (max-width: 750px) {
@@ -1676,17 +1701,10 @@ footer .footer .foot2 li a{
   .hero{
     height: 70vh;
   }
-  /* .pyt{
-    height: 60vh;
-  } */
+  .pyt{
+    height: 480px;
+  }
 
-  .pyt #img2{
-    width: 100%;
-    display: block;
-  }
-  .pyt #img1{
-    display: none;
-  }
 
   .rate{
     width: 95%;
@@ -1800,11 +1818,11 @@ footer .footer .foot2 li a{
    flex-wrap: wrap;
   }
   footer .footer .foot1{
-    width: 100%;
+    width: 50%;
     margin-bottom: 35px;
   }
   footer .footer .foot2{
-    width: 33%;
+    width: 46%;
   }
   footer .footer .foot2 li a{
     font-size: 15px;
@@ -1827,17 +1845,19 @@ footer .footer .foot2 li a{
 }
 @media screen and (max-width: 650px) {
 
-/* .pyt{
-  height: 55vh;
-} */
+.pyt{
+  height: 400px;
+}
 }
 
 @media screen and (max-width: 550px) {
-  .hero{
-    height: 68vh;
-  }
+
   .pyt{
-    height: 580px;
+    height: 400px;
+  }
+  .pyt #img2{
+    width: 100%;
+    display: none;
   }
   .hero .hero-c h2{
     font-size: 30px;
@@ -1915,15 +1935,25 @@ footer .footer .foot2 li a{
 
 @media screen and (max-width: 500px) {
   .pyt{
-    height: 500px;
+    height: 270px;
   }
 footer .footer .foot2{
   width: 100%;
   margin-bottom: 20px;
 }
+.rate{
+  margin-top: -32px;
+}
+.rate h3{
+  font-size: 19px;
+}
 }
 
 @media screen and (max-width: 420px) {
+  .pyt{
+    height: 240px;
+  }
+  
   .works .how{
     width: 100%;
   }
@@ -1960,7 +1990,7 @@ footer .footer .foot2{
 
 @media screen and (max-width: 320px) {
   .pyt{
-    height: 250px;
+    height: 220px;
   }
   .rate{
     margin-top: -20px;
@@ -1970,6 +2000,9 @@ footer .footer .foot2{
     width: auto;
     height: auto;
     max-width: 100%; 
+  }
+  .rate .one p{
+    font-size: 15px;
   }
   .why .w-r .w-c .w-cc{
     flex-direction: column;

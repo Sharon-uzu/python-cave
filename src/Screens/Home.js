@@ -170,7 +170,7 @@ const Home = () => {
 
           <div className="w-l">
             <div className="ww">
-              <h3>Why <span>Python?</span></h3>
+              <h3>Why <span>Pythons <br />Cave?</span></h3>
             </div>
             <img src={ec} alt="" />
           </div>

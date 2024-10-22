@@ -4,7 +4,8 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
-
+import { FaLinkedin } from "react-icons/fa6";
+import { FaSquareYoutube } from "react-icons/fa6";
 
 
 const Footer = () => {
@@ -17,14 +18,15 @@ const Footer = () => {
                     <h3>PYTHONS CAVE</h3>
                     <p>The Ultimate Arena Where Innovation Meets Opportunities.</p>
                     <div className="icons">
-                        <FaSquareInstagram className='f-i'/>
-                        <FaSquareFacebook className='f-i'/>
-                        <FaGoogle className='f-i'/>
-                        <FaSquareXTwitter className='f-i'/>
+                        <a href="https://www.instagram.com/pythonscave/"><FaSquareInstagram className='f-i'/></a>
+                        <a href="https://www.facebook.com/pythonscave/"><FaSquareFacebook className='f-i'/></a>
+                        <a href="https://www.linkedin.com/company/pythonscave"><FaLinkedin className='f-i'/></a>
+                        <a href="https://www.youtube.com/@PythonsCave"><FaSquareYoutube className='f-i'/></a>
+                        <a href="https://x.com/pythons_cave?mx=2"><FaSquareXTwitter className='f-i'/></a>
                     </div>
                 </div>
 
-                <div className="foot2">
+                <div className="foot2 foot2a">
                     <h4>About</h4>
                     <li><Link to='/python'>Pythons</Link></li>
                     <li><Link to='/about'>About Us</Link></li>
@@ -43,8 +45,8 @@ const Footer = () => {
                     <h4>Contact Us</h4>
                     <li><a href="mailto:pitch@pythonscave.com">pitch@pythonscave.com</a></li>
                     <li><a href="mailto:sponsor@pythonscave.com">sponsor@pythonscave.com</a></li>
-                    <li><a href="tel:+234-474-962-3723">+234-474-962-3723</a></li>
-                    <li><a href="tel:+234-808-962-1214">+234-808-962-1214</a></li>
+                    <li><a href="tel:07049623723">+234-704-962-3723</a></li>
+                    <li><a href="tel:08084741214">+234-808-474-1214</a></li>
                 </div>
 
             </div>

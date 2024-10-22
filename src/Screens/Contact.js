@@ -119,8 +119,8 @@ const Contact = () => {
                     <IoCallSharp className='c-i'/>
                     <h2>Call Us</h2>
                     <ul>
-                        <li><a href="tel:07049623723">+234-474-962-3723</a></li>
-                        <li><a href="tel:08089621214">+234-808-962-1214</a></li>
+                        <li><a href="tel:07049623723">+234-704-962-3723</a></li>
+                        <li><a href="tel:08084741214">+234-808-474-1214</a></li>
                     </ul>
                 </div>
 

@@ -151,21 +151,24 @@ const Apply = () => {
       errors.link = "Web or App link is required";
     } else if (!values.team) {
       errors.team = "Do you have a team?";
-    } else if (!values.noOfTeam) {
-      errors.noOfTeam = "Number of team members is required";
-    } else if (!values.noOfTeamComing) {
-      errors.noOfTeamComing = "Number of team members coming is required";
+    // } else if (!values.noOfTeam) {
+    //   errors.noOfTeam = "Number of team members is required";
+    //   alert('number')
+    // } else if (!values.noOfTeamComing) {
+    //   errors.noOfTeamComing = "Number of team members coming is required";
+    //   alert('coming')
     } else if (!values.desc) {
       errors.desc = "Product description is required";
-    } else if (!values.fb) {
-      errors.fb = "Facebook link is required";
-    } else if (!values.instagram) {
-      errors.instagram = "Instagram link is required";
-    } else if (!values.linkedin) {
-      errors.linkedin = "Linkedin link is required";
-    } else if (!values.twitter) {
-      errors.twitter = "Twitter link is required";
-    } 
+     } 
+    //else if (!values.fb) {
+    //   errors.fb = "Facebook link is required";
+    // } else if (!values.instagram) {
+    //   errors.instagram = "Instagram link is required";
+    // } else if (!values.linkedin) {
+    //   errors.linkedin = "Linkedin link is required";
+    // } else if (!values.twitter) {
+    //   errors.twitter = "Twitter link is required";
+    // } 
     return errors;
   };
 
@@ -345,9 +348,7 @@ const Apply = () => {
                     <option value="5members">5</option>
                     <option value="6members">6</option>
                   </select>
-                  <p style={{ color: "red", fontSize: "14px" }}>
-                    {formErrors.noOfTeam}
-                  </p>
+                  
                 </label>
 
                 <label htmlFor="">
@@ -360,9 +361,7 @@ const Apply = () => {
                     <option value="3">3</option>
                     <option value="4">4</option>
                   </select>
-                  <p style={{ color: "red", fontSize: "14px" }}>
-                    {formErrors.noOfTeamComing}
-                  </p>
+                  
                 </label>
               </>
             ) : null}
@@ -383,28 +382,20 @@ const Apply = () => {
                 <input type="text" name="fb" placeholder='facebook link'
                   value={formData.fb}
                   onChange={handleChange} />
-                <p style={{ color: "red", fontSize: "14px" }}>
-                  {formErrors.fb}
-                </p>
+               
                 <input type="text" name="instagram" placeholder='instagram link'
                   value={formData.instagram}
                   onChange={handleChange} />
-                <p style={{ color: "red", fontSize: "14px" }}>
-                  {formErrors.instagram}
-                </p>
+                
                 <input type="text" name="linkedin" placeholder='linkedin link'
                   value={formData.linkedin}
                   onChange={handleChange} />
-                <p style={{ color: "red", fontSize: "14px" }}>
-                  {formErrors.linkedin}
-                </p>
+                
                 <input type="text" name="twitter" placeholder='X link'
                   value={formData.twitter}
                   onChange={handleChange} />
               </div>
-              <p style={{ color: "red", fontSize: "14px" }}>
-                {formErrors.twitter}
-              </p>
+             
             </label>
 
             <div className="btns btnss">

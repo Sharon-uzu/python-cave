@@ -1,19 +1,19 @@
 {
   "short_name": "PYTHONS CAVE",
-  "name": "The Ultimate Arena Where Innovation Meets Opportunities.",
+  "name": "Innovate.Pitch.Conquer",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "pl.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo.png",
+      "src": "pl.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo.png",
+      "src": "pl.png",
       "type": "image/png",
       "sizes": "512x512"
     }

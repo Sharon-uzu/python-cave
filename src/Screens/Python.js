@@ -61,8 +61,8 @@ const Python = () => {
 <Header/>
 
         <div className="hero pyt">
-        <img src={image} alt="" id='img1'/>
-        <img src={image2} alt="" id='img2'/>
+            <img src={image} alt="" id='img1'/>
+            <img src={image2} alt="" id='img2'/>
         </div>
 
         <div className="rate">
